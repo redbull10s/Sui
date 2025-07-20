@@ -106,3 +106,4 @@ In short, there are four parts:
   - Acquire the fd of our apk from the root server, create a `Resource` instance from it
   - Publish shortcut which targets an existing `Acitivty` but with a special intent extra
   - Replace `ActivityThread#mInstrumentation` to intervene the `Acitivty` instantiate process, if the intent has the speical extra, create our `Activity` which uses our `Resource` and `ClassLoader`
+
